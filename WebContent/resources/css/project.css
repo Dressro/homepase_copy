@@ -5,6 +5,11 @@
 	padding: 0px;
 }
 
+ul {
+	list-style: none;
+	text-align: center;
+}
+
 body {
 	background-color: #5383e8;
 }
@@ -13,24 +18,54 @@ body {
 	display: flex;
 	background-color: #232f46;
 	word-break: keep-all;
-	height:40px;
+	height: 40px;
+}
+
+.sec_gnbbar {
+	height: 48px;
+	border-bottom: 1px solid #4171d6;
+	box-sizing: border-box;
+}
+
+.menu {
+	display: flex;
+	margin: 0 auto;
+	height: 48px;
+}
+
+.menu_line {
+	margin-left: 24px;
+	font-size: 15px;
+	line-height: 19px;
+}
+
+.munu_line_first-child {
+	margin-left: 0px;
+	font-size: 15px;
+	line-height: 19px;
+	
+}
+
+.menu_line>a, .munu_line_first-child>a {
+	color: #b3cdff;
+	display: flex;
+	border-bottom: 3px solid transparent;
+	padding: 13px 0;
 }
 
 #opgg {
 	padding-bottom: 10px;
 	text-align: center;
 	background-color: #5383e8;
-	width:100px;
-
+	width: 100px;
 }
 
 .game {
-
-    line-height: 40px;
-    padding: 0 12px 0 4px;
-    margin: 0;
-    color: white;
-    background-color: #5383e8;
+	line-height: 40px;
+	padding: 0 12px 0 4px;
+	margin: 0;
+	color: white;
+	background-color: #5383e8;
 }
 
 .game2 {
