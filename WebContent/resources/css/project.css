@@ -5,13 +5,21 @@
 	padding: 0px;
 }
 
+a {
+	text-decoration: none;
+}
+
 ul {
 	list-style: none;
 	text-align: center;
 }
 
-body {
+#full {
 	background-color: #5383e8;
+	min-width: 1080px;
+	min-height: 100%;
+	position: relative;
+	overflow: hidden;
 }
 
 .gnbbar {
@@ -19,38 +27,6 @@ body {
 	background-color: #232f46;
 	word-break: keep-all;
 	height: 40px;
-}
-
-.sec_gnbbar {
-	height: 48px;
-	border-bottom: 1px solid #4171d6;
-	box-sizing: border-box;
-}
-
-.menu {
-	display: flex;
-	margin: 0 auto;
-	height: 48px;
-}
-
-.menu_line {
-	margin-left: 24px;
-	font-size: 15px;
-	line-height: 19px;
-}
-
-.munu_line_first-child {
-	margin-left: 0px;
-	font-size: 15px;
-	line-height: 19px;
-	
-}
-
-.menu_line>a, .munu_line_first-child>a {
-	color: #b3cdff;
-	display: flex;
-	border-bottom: 3px solid transparent;
-	padding: 13px 0;
 }
 
 #opgg {
@@ -71,11 +47,79 @@ body {
 .game2 {
 	margin: 4px;
 	padding: 0 8px;
-	color: #c3cbd1;
 	display: inline-block;
 	height: 32px;
 	line-height: 32px;
 	vertical-align: middle;
+}
+
+.gamemenu_first:link {
+	color: white;
+}
+
+.gamemenu_first:visited {
+	color: white;
+}
+
+.gamemenu:link {
+	color: #c3cbd1;
+}
+
+.gamemenu:visited {
+	color: #c3cbd1;
+}
+
+.game2:hover {
+	background-color: #232f10;
+}
+
+.sec_gnbbar {
+	border-bottom: 1px solid #4171d6;
+	box-sizing: border-box;
+	height: 48px;
+}
+
+.menu {
+	display: flex;
+	margin: 0 auto;
+	height: 48px;
+}
+
+.menu_line {
+	margin-left: 24px;
+	font-size: 15px;
+	line-height: 19px;
+}
+
+.munu_line_first-child {
+	margin-left: 0px;
+	font-size: 15px;
+	line-height: 19px;
+}
+
+.menu_line>a.urf {
+	color: #00fede;
+}
+
+.munu_line_first-child>a {
+	color: white;
+	display: flex;
+	border-bottom: 3px solid white;
+	padding: 13px 0;
+}
+
+.menu_line>a {
+	color: #b3cdff;
+	display: flex;
+	border-bottom: 3px solid transparent;
+	padding: 13px 0;
+}
+
+.menu_line>a:hover {
+	color: white;
+	display: flex;
+	border-bottom: 3px solid white;
+	padding: 13px 0;
 }
 
 span {
@@ -87,4 +131,26 @@ span {
 	width: 24px;
 	height: 24px;
 	vertical-align: middle;
+}
+
+.mid_first {
+	text-align: center;
+	padding: 32px 0 24px;
+
+}
+
+.mid_form {
+	width: 650px;
+	margin: 0px auto;
+	background-color: white;
+	border-radius: 5px 5px 5px 5px;
+}
+
+.mid_form_input {
+	background:none;
+	border: none;
+	color: #9b9b9b;
+	padding: 15px 150px 18px 17px;
+	width: 100%;
+	font-size: 14px;
 }
