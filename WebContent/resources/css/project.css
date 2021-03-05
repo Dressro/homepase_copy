@@ -127,7 +127,6 @@ ul {
 .menu_line>a {
 	color: #b3cdff;
 	display: flex;
-	border-bottom: 3px solid transparent;
 	padding: 13px 0;
 }
 
@@ -158,6 +157,9 @@ span {
 	font-size: 12px;
 	width:1080px;
 	line-height: 40px;
+}
+.ex_line:hover{
+	text-decoration: underline;
 }
 #mid {
 	width: 1080px;
