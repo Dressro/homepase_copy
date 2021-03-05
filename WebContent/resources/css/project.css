@@ -137,7 +137,9 @@ span {
 	height: 24px;
 	vertical-align: middle;
 }
-
+#mid {
+	margin: 0 auto;
+}
 .mid_first {
 	text-align: center;
 	padding: 32px 0 24px;
@@ -174,12 +176,13 @@ span {
 	height: 30px;
 }
 .mid_third{
-	background-color: white;
 	margin : 30px 55px 0px;
-	height:50%;
+
 }
 .third_box{
 	width:970px;
 	height:250px;
 	border: 1px solid; 
+	text-align: center;
+    margin: 0px auto;
 }
