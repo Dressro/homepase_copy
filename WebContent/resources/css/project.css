@@ -34,8 +34,13 @@ ul {
 	text-align: center;
 	background-color: #5383e8;
 	width: 100px;
+	
 }
-
+#opgg_log{
+	position: relative;
+	top:-7px;
+	left: 0px;
+}
 .game {
 	line-height: 40px;
 	padding: 0 12px 0 4px;
@@ -70,7 +75,7 @@ ul {
 }
 
 .game2:hover {
-	background-color: #232f10;
+	background-color: #5e7e9b;
 }
 
 .sec_gnbbar {
@@ -136,10 +141,10 @@ span {
 .mid_first {
 	text-align: center;
 	padding: 32px 0 24px;
-
 }
 
 .mid_form {
+	position: relative;
 	width: 650px;
 	margin: 0px auto;
 	background-color: white;
@@ -147,10 +152,34 @@ span {
 }
 
 .mid_form_input {
-	background:none;
+	background: none;
 	border: none;
 	color: #9b9b9b;
 	padding: 15px 150px 18px 17px;
 	width: 100%;
 	font-size: 14px;
+}
+
+.mid_form_button {
+	position: absolute;
+	left: 580px;
+	top: 7px;
+	display: flex;
+}
+
+.button_img {
+	background-image: url("https://opgg-static.akamaized.net/assets/site.png?image=q_auto&v=1614735388");
+	background-position: -90px -797px;
+	width: 50px;
+	height: 30px;
+}
+.mid_third{
+	background-color: white;
+	margin : 30px 55px 0px;
+	height:50%;
+}
+.third_box{
+	width:970px;
+	height:250px;
+	border: 1px solid; 
 }
