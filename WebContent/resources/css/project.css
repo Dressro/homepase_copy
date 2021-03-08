@@ -179,12 +179,15 @@ span {
 }
 
 .mid_form_input {
+	display : block;
 	background: none;
 	border: none;
 	color: #9b9b9b;
 	padding: 15px 150px 18px 17px;
 	width: 100%;
 	font-size: 14px;
+	box-sizing: border-box;
+	
 }
 
 .mid_form_button {
